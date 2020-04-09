@@ -13,6 +13,8 @@
 </head>
 <body>
   <input type="button" onclick="BackToTop()" class="GoTop"id="GoTop" value="UP">
+<!--TODO! Поправить отступы во всем коде (ниже тоже есть ошибки). Например, в начале <header> сдвинут, контейнер с содержимым логично не лежит внутри <header>. 
+Отступы неправильные: Ошибка не соблюдение стандарта стилизации кода (можно загуглить PEP8, общепризнанный мировой стандарт) -->
      <header class="header" id="header">
     <div class="container">
       <nav class="nav">
@@ -91,6 +93,9 @@
       </div>
     </div>
   </section>
+<!--TODO! Поправить названия (ниже тоже есть ошибки). Например,что за faq6, faq1. id и class у section должны совпадать по логике. 
+Мы через класс обращаемся к css, а по id в меню навигацонном делаем переход
+Непонятные названия: Ошибка не соблюдение стандарта стилизации кода (можно загуглить PEP8, общепризнанный мировой стандарт) -->	   
   <section class="faq6" id="faq1">
        <div class="block3"></div>
        <div class="MyWork">
@@ -100,8 +105,12 @@
        <div class="video"><iframe width="1110" height="600"; 
        src="https://www.youtube.com/embed/5osJMAnzwkE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
        </section>
+	<!--TODO! Плохое название класса блока с картинкой. Непонятно что там. Пришлось открывать сайт и смотреть. 
+	Эта картинка просится в отдельный section -->	    
        <div class="clients"><img src="images/clients.svg" alt="clients"></div>
+	<!--TODO! Также картинка с Microsoft просится в отдельный section -->	  
        <div class="projects"><img src="images/projects.svg" alt="projects"></div>
+	  <!--TODO! То что ниже должно быть в section class="form" --> 
        <div class="making"><h2>Хотите веб-сайт?</h2></div>
        <div class="text3"><p>Напишите мне:)</p></div>
 	   <section class="form">
@@ -116,6 +125,7 @@
        </form>
 	   </section>
    </main>
+	<!--TODO! Названия!! непонятные. что за block10 -->
    <footer id="footer">
       <section id="contacts" class="contacts">
        <div class="block10"></div>
